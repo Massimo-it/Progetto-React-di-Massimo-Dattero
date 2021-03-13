@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "lucida Calligraphy", "sans-serif";
+}
+
+a:link {
+  text-decoration: none;
+}
+
+h3 {
+  background-color: #660000;
+  color: #b8b894;
+  width: 500px;
+  padding: 5px 0;
+  margin: 5px auto 20px;
+  border-radius: 10px;
+}
+
+h4 {
+  background-color: #660000;
+  color: #b8b894;
+  padding: 5px 0;
+  width: 400px;
+  margin: 20px auto 20px;
+  border-radius: 10px;
+}
+
+.message-h4 {
+  margin-top: 10px;
+}
+
+.button-search {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: solid 2px #660000;
+  background-color: honeydew;
+  margin-top: 10px;
+}
+
+
+.search-section {
+  text-align: center;
+  margin: auto;
+  height: 350px;
+  padding: 20px;
+  background-image: url("./pictures/book.jpg");
+}
+
+.input-field {
+  margin: 5px;
+  width: 400px;
+  height: 30px;
+  border: solid 2px #660000;
+  border-radius: 10px;
+  caret-color: red;
+}
+
+.select-field {
+  margin-top: 5px;
+  width: 100px;
+  border-radius: 10px;
+  border: solid 2px #660000;
+}
+
+.failed-search {
+  text-align: center;
+  width: 500px;
+  margin: 10px auto;
+  font-size: 30px;
+  padding: 10px;
+  border: solid 2px brown;
+}
+
+.author-title {
+  width: 150px;
+  color: #660000;
+  padding: 10px;
+}
+
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container {
+  display: inline-block;
+  border: solid 2px gray;
+  width: 180px;
+  text-align: center;
+  margin: 20px;
+  background-color: rgb(202, 202, 202);
+}
+.books {
+  width: 150px;
+  padding: 5px;
+  border: solid 2px darkblue;
+  margin: auto 5px;
+}
+
